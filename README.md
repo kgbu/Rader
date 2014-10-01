@@ -1,7 +1,7 @@
 Rader
 =====
 
-RSS Reader on MQTT service
+RSS 'Social' Reader on MQTT bound services
 
 - pub/sub portion is implemented by MQTT broker
 - feed data model for each client is implemented by process on Erlang
@@ -13,17 +13,26 @@ RSS Reader on MQTT service
   - filter out 'READ' items on social network
   - ask someone to read, or mention count on your timeline
 - broke down to microservices to support social activities.
+- to make money
+	- insert ad
+		- affiriate by RT (curator is rewarded)
 
 Repository
+
 + main > marshaller (everything)
+	- Map/Reduce to extract social data
 + customer specific 
 + API
 
 
 Crawler
+
 + publisher
 + get diff from previous sampling
 + API
+	- set entry
+	- purge RSS (if now user exists, crawling stop
+	- rotate RSS entries
 
 
 Client / iOS App, Facebook App, browser App 
@@ -33,6 +42,7 @@ Client / iOS App, Facebook App, browser App
 + view latest
 + social activities
   - comment
+  - recommend (RT, cite, etc.)
   
 
 
@@ -46,4 +56,3 @@ Agents
 + MQTT re-publisher
 + IRC bot with template
 + Twitter bot
-
