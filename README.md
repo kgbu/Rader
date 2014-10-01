@@ -29,9 +29,9 @@ Crawler
 
 + publisher
 + get diff from previous sampling
-+ API
-	- set entry
-	- purge RSS (if now user exists, crawling stop
++ API (for supervisor)
+	- set entry (RSS_URL)
+	- purge RSS (if no subscribing user exists, crawling stop)
 	- rotate RSS entries
 
 
