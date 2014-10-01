@@ -11,7 +11,7 @@ RSS 'Social' Reader on MQTT bound services
     - Token bearer is the process
     - process behaviour can be described by DSL(Lua)
   - filter out 'READ' items on social network
-  - ask someone to read, or mention count on your timeline
+  - ask someone what to read, or mention count on your timeline
 - broke down to microservices to support social activities.
 - to make money
 	- insert ad
