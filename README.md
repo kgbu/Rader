@@ -23,7 +23,7 @@ Repository
 + main > marshaller (everything)
 	- Map/Reduce to extract social data
 + customer specific 
-+ API for 
++ API test
 
 
 Crawler
