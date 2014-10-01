@@ -18,7 +18,7 @@ RSS 'Social' Reader on MQTT bound services
 		- affiriate by RT (curator is rewarded)
 
 Repository
-=====
+=======
 
 + main > marshaller (everything)
 	- Map/Reduce to extract social data
