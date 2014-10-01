@@ -18,6 +18,7 @@ RSS 'Social' Reader on MQTT bound services
 		- affiriate by RT (curator is rewarded)
 
 Repository
+=====
 
 + main > marshaller (everything)
 	- Map/Reduce to extract social data
@@ -26,6 +27,7 @@ Repository
 
 
 Crawler
+======
 
 + publisher
 + get diff from previous sampling
@@ -36,6 +38,7 @@ Crawler
 
 
 Client / iOS App, Facebook App, browser App 
+=======
 
 + multi-subscriber
 
@@ -47,11 +50,13 @@ Client / iOS App, Facebook App, browser App
 
 
 Web Service
+=====
 
 + store Social data
 + unread data control
 
 Agents
+=====
 
 + MQTT re-publisher
 + IRC bot with template
